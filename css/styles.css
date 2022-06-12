@@ -7,8 +7,10 @@
     text-decoration: none;
 }
 
-.logo > img {
-    width: 60px;
+.logo img {
+    max-width: 100%;
+    width: 120px;
+    height: auto;
 }
 
 header {
@@ -23,3 +25,49 @@ header {
     background: transparent;
     padding: 25px 7%;
 }
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: #161616;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #c80b96;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#menu-icon {
+    font-size: 30px;
+    color: #161616;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+.btn {
+    font-size: 14px;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 600;
+    height: 60px;
+    line-height: 60px;
+    background: #ef0454;
+    color: #fff;
+    padding: 0 30px;
+    text-transform: uppercase;
+    transition: all .34s;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: translateY(-10px);
+}
+
