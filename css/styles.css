@@ -6,6 +6,9 @@
     list-style: none;
     text-decoration: none;
 }
+:root{
+    --color-main: #247AFD;
+}
 
 body {
     background-color: #f7f8fc;
@@ -43,7 +46,7 @@ header {
 }
 
 .navbar a:hover {
-    background-color: #c80b96;
+    background-color: var(--color-main);
     color: #fff;
     border-radius: 4px;
 }
@@ -63,7 +66,7 @@ header {
     font-weight: 600;
     height: 60px;
     line-height: 60px;
-    background: #ef0454;
+    background: var(--color-main);
     color: #fff;
     padding: 0 30px;
     text-transform: uppercase;
@@ -135,7 +138,7 @@ section {
 }
 
 .text-career {
-    color: #ef0454;
+    color: var(--color-main);
 }
 
 .text p {
@@ -165,7 +168,7 @@ section {
     height: 60px;
     width: 60px;
     background: #fff;
-    color: #ef0454;
+    color: var(--color-main);
     font-size: 40px;
     display: inline-flex;
     align-items: center;
@@ -177,7 +180,7 @@ section {
 }
 
 .btn-second span i:hover {
-    background: #ef0454;
+    background: var(--color-main);
     color: #fff;
 }
 
@@ -200,7 +203,7 @@ section {
 
 .social ul li i:hover {
     transform: translateY(-5px);
-    color: #ef0454;
+    color: var(--color-main);
 }
 
 .title-jobs {
@@ -210,6 +213,7 @@ section {
 
 .job {
     font-size: 28px;
+    margin-bottom: 10px;
 }
 
 .container-cards {
@@ -295,6 +299,10 @@ section {
     color: #545d7a;
 }
 
+footer {
+    font-size: 16px;
+    margin: 10px auto;
+}
 
 
 @media (max-width: 1380px) {
@@ -360,17 +368,16 @@ section {
         right: 0;
         display: flex;
         flex-direction: column;
-        background: #ef0454;
+        background: var(--color-main);
         text-align: left;
         transition: all .35s ease;
     }
 
     .navbar a {
         display: block;
-        padding: 1rem;
-        margin: 1.3rem;
+        padding: 1.0rem;
+        margin: 0.5rem;
         color: #fff;
-        border-left: 2px solid #fff;
     }
 
     .navbar a:hover {
