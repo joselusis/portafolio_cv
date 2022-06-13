@@ -14,7 +14,7 @@ body {
 
 .logo img {
     max-width: 100%;
-    width: 100px;
+    width: 160px;
     height: auto;
 }
 
@@ -28,7 +28,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #f7f8fc;
-    padding: 25px 7%;
+    padding: 5px 7%;
 }
 
 .navbar {
