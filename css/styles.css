@@ -2,12 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppuns', sans-serif;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     list-style: none;
     text-decoration: none;
 }
-:root{
+
+:root {
     --color-main: #247AFD;
+}
+
+a {
+    cursor: pointer;
 }
 
 body {
@@ -300,8 +306,40 @@ section {
     color: #545d7a;
 }
 
+/*modal*/
+.w3-modal-content{
+    border-radius: 1rem;
+}
+.w3-container {
+    padding: 25px;
+}
+
+.close-modal {
+    color: #aaa;
+}
+.close-modal:hover {
+    background: unset !important;
+}
+
+.modal-header-jobs {
+    margin-top: 16px;
+}
+.title-content-modal{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.btn-content-job {
+    border: none;
+    font-size: 11px;
+    float: right;
+    height: 48px;
+    line-height: 43px;
+    padding: 0 25px;
+}
+
 footer {
-    font-size: 16px;
+    font-size: 14px;
     margin: 10px auto;
 }
 
@@ -402,5 +440,15 @@ footer {
 
     header {
         padding: 14px 3%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .w3-modal {
+        padding-top: 122px;
+    }
+    .btn{
+        font-size: 10px;
     }
 }

@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -23,7 +24,8 @@
             <li><a href="#">Proyectos</a></li>
             <li><a href="#">Contacto</a></li>
         </ul>
-        <a href="https://drive.google.com/file/d/115pL19yVnqqH7peQhr6MvwtDI6GuQkSn/view?usp=sharing" download="CV_JOSEVILLANUEVA" class="btn">Descargar CV</a>
+        <a href="https://drive.google.com/file/d/115pL19yVnqqH7peQhr6MvwtDI6GuQkSn/view?usp=sharing"
+            download="CV_JOSEVILLANUEVA" class="btn">Descargar CV</a>
     </header>
     <section class="container">
         <div class="text">
@@ -54,7 +56,7 @@
         <div class="container-cards">
             <div class="card">
                 <div class="card-header">
-                    <a href="https://www.misrentas.mx/">
+                    <a onclick="document.getElementById('id-misRentas').style.display='block'">
                         <img src="./img/jobs/misRentas-job.png" alt="MisRentas" />
                     </a>
                 </div>
@@ -174,6 +176,35 @@
                 </div>
             </div>
         </div>
+
+
+        <div id="id-misRentas" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id-misRentas').style.display='none'"
+                        class="w3-button w3-display-topright close-modal">Cerrar</span>
+                    <div class="modal-header-jobs">
+                        <span class="title-content-modal">Contribuciones                         
+                        </span>
+                        <a class="btn btn-content-job" href="https://www.misrentas.mx/">Visitar sitio</a>
+                    </div>
+                    <ol>
+                        <li>Asistencia a usuarios</li>
+                        <li>Implementación de facturación y complementos de pago(generación y sellado de XML) CFDI 4.0</li>
+                        <li>Timbrado de facturas automáticas a nivel de contrato</li>
+                        <li>Implementación de cálculo de impuestos ISR, IVA con o sin rentenciones a nivel de contrato</li>
+                        <li>Mejoras de diseño en el Dashboard</li>
+                        <li>Mejoras de diseño en general</li>
+                        <li>Implementación de registro para comprar de propiedades por período (mensual o anual)</li>
+                        <li>Pasarela de pago Paypal para la suscripción de usuarios mensual o anual</li>
+                        <li>Generación de reportes PDF y Excel con JasperReports</li>
+                        <li>Implementación y mejora de Roles para acceso a un determinado perfil</li>
+                        <li>Consumo de Servicio Paypal, exchanges, Facturapi, Facturación PAX</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
 
         <footer>
             <p>&#9426 2022 Creado por José Luis Villanueva </p>
