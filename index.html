@@ -81,7 +81,9 @@
             </div>
             <div class="card">
                 <div class="card-header">
-                    <a href="https://tocajazz.com/"><img src="./img/jobs/tocajazz-job.png" alt="MisRentas" /></a>
+                    <a onclick="document.getElementById('id-tocajazz').style.display='block'">
+                        <img src="./img/jobs/tocajazz-job.png" alt="Tocajazz" />
+                    </a>
                 </div>
                 <div class="card-body">
                     <span class="tag tag-teal">PHP</span>
@@ -205,6 +207,25 @@
             </div>
         </div>
 
+        <div id="id-tocajazz" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id-tocajazz').style.display='none'"
+                        class="w3-button w3-display-topright close-modal">Cerrar</span>
+                    <div class="modal-header-jobs">
+                        <span class="title-content-modal">Contribuciones <i class="fa fa-handshake-o" aria-hidden="true"></i></span> 
+                        <a class="btn btn-content-job" href="https://tocajazz.com/">Visitar sitio</a>
+                    </div>
+                    <ol>
+                        <li>Reestructuración de contenido entre las diferentes vistas del sistema</li>
+                        <li>Mejoras en la interactivad del usuario</li>
+                        <li>Desglose de contenido de series y lecciones</li>
+                        <li>Mejores en el registro e inicio sesión normal y con redes sociales(Facebook y Google)</li>
+                        <li>Implementación de Gráficas con HighCharts</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
 
         <footer>
             <p>&#9426 2022 Creado por José Luis Villanueva </p>
