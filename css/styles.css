@@ -76,7 +76,6 @@ header {
 
 .btn:hover {
     opacity: 0.9;
-    transform: translateY(-10px);
 }
 
 .container {
