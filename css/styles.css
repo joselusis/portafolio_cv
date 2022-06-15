@@ -339,6 +339,9 @@ section {
     padding: 0 25px;
 }
 
+.skills {
+    text-align: center;
+}
 .progress {
     margin:20px auto;
     padding:0;
