@@ -306,6 +306,13 @@ section {
     color: #545d7a;
 }
 
+.icon-message {
+    font-size: 28px;
+    padding: 6px;
+    margin: 0px;
+    line-height: 48px;
+}
+
 /*modal*/
 .w3-modal-content{
     border-radius: 1rem;
