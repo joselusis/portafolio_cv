@@ -342,6 +342,13 @@ section {
 .skills {
     text-align: center;
 }
+
+.profile {
+    position: absolute;
+    right: 50px;
+    width: 200px;
+    border-radius: 50%;
+}
 .progress {
     margin:20px auto;
     padding:0;
@@ -406,6 +413,10 @@ footer {
 @media (max-width: 1120px) {
     header {
         padding: 14px 2%;
+    }
+
+    .profile{
+        display: none;
     }
 
     #menu-icon {
