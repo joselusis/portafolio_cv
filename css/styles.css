@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans,
-    Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     list-style: none;
     text-decoration: none;
 }
@@ -308,16 +308,20 @@ section {
 }
 
 /*modal*/
-.w3-modal-content{
+.w3-modal-content {
     border-radius: 1rem;
+    padding: 15px;
 }
+
 .w3-container {
     padding: 25px;
 }
 
 .close-modal {
     color: #aaa;
+    margin: 7px;
 }
+
 .close-modal:hover {
     background: unset !important;
 }
@@ -325,7 +329,8 @@ section {
 .modal-header-jobs {
     margin-top: 16px;
 }
-.title-content-modal{
+
+.title-content-modal {
     font-size: 26px;
     font-weight: 600;
 }
@@ -339,6 +344,9 @@ section {
     padding: 0 25px;
 }
 
+.content-contributions li{
+    padding: 3px;
+}
 .skills {
     text-align: center;
 }
@@ -349,43 +357,44 @@ section {
     width: 200px;
     border-radius: 50%;
 }
-.progress {
-    margin:20px auto;
-    padding:0;
-    width:90%;
-    height:20px;
-    overflow:hidden;
-    background:#e5e5e5;
-    border-radius:6px;
-  }
-  
-  .bar {
-      position:relative;
-    float:left;
-    min-width:1%;
-    height:100%;
-    background:cornflowerblue;
-  }
-  
-  .percent {
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    margin:0;
-    font-family:tahoma,arial,helvetica;
-    font-size:10px;
-    color:white;
-  }
 
-  .content-skills {
+.progress {
+    margin: 20px auto;
+    padding: 0;
+    width: 90%;
+    height: 20px;
+    overflow: hidden;
+    background: #e5e5e5;
+    border-radius: 6px;
+}
+
+.bar {
+    position: relative;
+    float: left;
+    min-width: 1%;
+    height: 100%;
+    background: cornflowerblue;
+}
+
+.percent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-family: tahoma, arial, helvetica;
+    font-size: 10px;
+    color: white;
+}
+
+.content-skills {
     display: inline-block;
     width: 110px;
-  }
+}
 
-  .title-skill {
+.title-skill {
     text-align: center;
-  }
+}
 
 
 footer {
@@ -415,7 +424,7 @@ footer {
         padding: 14px 2%;
     }
 
-    .profile{
+    .profile {
         display: none;
     }
 
@@ -502,13 +511,15 @@ footer {
     .w3-modal {
         padding-top: 122px;
     }
-    .btn{
+
+    .btn {
         font-size: 8px;
         padding: 0 20px;
         line-height: 40px;
         height: 42px;
     }
-    .icon-message{
+
+    .icon-message {
         line-height: 32px;
         font-size: 20px;
     }
