@@ -456,6 +456,13 @@ footer {
         padding-top: 122px;
     }
     .btn{
-        font-size: 10px;
+        font-size: 8px;
+        padding: 0 20px;
+        line-height: 40px;
+        height: 42px;
+    }
+    .icon-message{
+        line-height: 32px;
+        font-size: 20px;
     }
 }
