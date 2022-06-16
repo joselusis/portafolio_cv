@@ -251,12 +251,12 @@ section {
 
 .tag {
     background: #cccccc;
-    border-radius: 50px;
-    font-size: 12px;
+    border-radius: 0.8rem;
+    font-size: 11px;
     margin-bottom: 4px;
     color: #fff;
     text-transform: uppercase;
-    padding: 5px 15px;
+    padding: 3px 15px;
     cursor: pointer;
 }
 
