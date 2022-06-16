@@ -2,57 +2,412 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <!-- or -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="boxicons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/styles.css">
-    </head>
+</head>
 
 <body>
     <header>
         <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
         <div class="bx bx-menu" id="menu-icon"></div>
         <ul class="navbar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#about-me">Acerca de mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
         </ul>
-        <a href="#" class="btn">Download CV</a>
+        <a href="https://drive.google.com/file/d/115pL19yVnqqH7peQhr6MvwtDI6GuQkSn/view?usp=sharing"
+            download="CV_JOSEVILLANUEVA" class="btn">Descargar CV</a>
     </header>
     <section class="container">
         <div class="text">
+            <img class="profile" src="./img/profile.jpeg" alt="">
             <div class="slide">
-                <span class="first-word">Hola</span>
-                <span class="second-word">Mi nombre</span>
+                <span class="first-word">¿Qué tal?</span>
+                <span class="second-word">Mi nombre es</span>
             </div>
             <h1>José Luis Villanueva</h1>
             <h2>Desarrollador <span class="text-career">Web</span></h2>
-            <p>Me dedico al desarrollo web desde hace más de 2 años, proporcionando soluciones a la medida</p>
+            <p>Me dedico al desarrollo de aplicaciones y páginas web desde hace más de 1 año, proporcionando soluciones
+                a los requerimientos
+                solicitados con la implementación de tecnologías utilizados en el mercado actual
+            </p>
             <div class="button">
-                <a href="#" class="btn">Saludar</a>
-                <a href="#" class="btn-second"><span><i class="bx bx-play"></i></span>Ver mi trabajo</a>
+                <a href="https://wa.me/529812060410" class="btn"><i class='bx bxl-whatsapp icon-message'></i> Enviar
+                    mensaje </a>
+                <!-- <a href="https://github.com/joselusis" class="btn-second"><span><i class='bx bxl-github icon-git' ></i></span>Ver mi trabajo</a>  -->
             </div>
         </div>
+
+        <div id="about-me" class="title-jobs">
+            <h3><i class='bx bx-user-pin job'></i> Acerca de mí </h3>
+            <p>Tengo 24 años de edad, soy Ing. en Sistemas Computacionales, egresado de la Universidad Autónoma de
+                Campeche,
+                actualmente me dedico al desarrollo Web. <br><br>
+
+                En mi experiencia he aportado soluciones derivado de situaciones y problemáticas que han surgido en las
+                aplicaciones
+                que he trabajado, proporcionando el mejor resultado y satisfación para el usuario final. <br><br>
+
+                También en relación a los requerimientos y asignación de actividades, he contribuido en realizar
+                entregables entre una duración de entre 2 y
+                4 semanas. con el fin de ir cumpliendo con la implementación por medio de pequeñas parte del sistema
+                funcionales.
+            </p>
+        </div>
+
+        <div class="title-jobs skills">
+            <h3><i class='bx bx-code'></i> Tecnologías usadas</h3>
+            <div class="content-skills">
+                <h6 class="title-skill">HTML</h6>
+                <div class="progress">
+                    <div class="bar" style="width:80%">
+                        <p class="percent">80%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-skills">
+                <h6 class="title-skill">CSS</h6>
+                <div class="progress">
+                    <div class="bar" style="width:60%">
+                        <p class="percent">60%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-skills">
+                <h6 class="title-skill">JAVASCRIPT</h6>
+                <div class="progress">
+                    <div class="bar" style="width:60%">
+                        <p class="percent">60%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-skills">
+                <h6 class="title-skill">JQUERY</h6>
+                <div class="progress">
+                    <div class="bar" style="width:60%">
+                        <p class="percent">60%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-skills">
+                <h6 class="title-skill">PHP</h6>
+                <div class="progress">
+                    <div class="bar" style="width:70%">
+                        <p class="percent">70%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-skills">
+                <h6 class="title-skill">LARAVEL</h6>
+                <div class="progress">
+                    <div class="bar" style="width:50%">
+                        <p class="percent">50%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-skills">
+                <h6 class="title-skill">GIT</h6>
+                <div class="progress">
+                    <div class="bar" style="width:50%">
+                        <p class="percent">50%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-skills">
+                <h6 class="title-skill">MYSQL</h6>
+                <div class="progress">
+                    <div class="bar" style="width:60%">
+                        <p class="percent">60%</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="projects" class="title-jobs">
+            <h3><i class='bx bx-code-block job'></i> Experiencia laboral </h3>
+        </div>
+
+        <div class="container-cards">
+            <div class="card">
+                <div class="card-header">
+                    <a onclick="document.getElementById('id-misRentas').style.display='block'">
+                        <img src="./img/jobs/misRentas-job.png" alt="MisRentas" />
+                    </a>
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-teal">PHP</span>
+                    <h4>
+                        Descripción
+                    </h4>
+                    <p class="content-job">
+                        Es una herramienta que permite a arrendadores de inmuebles, dueños o agentes inmobiliarias
+                        administrar, cobrar y facturar las rentas de sus propiedades. <br> &nbsp;
+                    </p>
+                    <div class="user">
+                        <img src="./img/jobs/misRentas.jpeg" alt="user" />
+                        <div class="user-info">
+                            <h5>Mis Rentas</h5>
+                            <small>Administra y cobra tus rentas</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a onclick="document.getElementById('id-tocajazz').style.display='block'">
+                        <img src="./img/jobs/tocajazz-job.png" alt="Tocajazz" />
+                    </a>
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-teal">PHP</span>
+                    <h4>
+                        Descripción
+                    </h4>
+                    <p class="content-job">
+                        Es una plataforma que te permite aprender a tocar el saxofón profesionalmente a través de
+                        contenido multimedia y podrás reforzar tus conocimientos por medio de evaluaciones.
+                    </p>
+                    <div class="user">
+                        <img src="./img/jobs/tocajazz.jpeg" alt="Tocajazz" />
+                        <div class="user-info">
+                            <h5>Tocajazz</h5>
+                            <small style="white-space: nowrap;">A un click de tocar como los grandes</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="title-jobs">
+            <h3><i class='bx bx-code job'></i> Proyectos personales </h3>
+        </div>
+
+        <div class="container-cards">
+            <div class="card">
+                <div class="card-header">
+                    <a onclick="document.getElementById('id-agua').style.display='block'">
+                        <img src="./img/jobs/proyecto_agua.jpg" alt="Cha’an Ha’" />
+                    </a>
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-purple">LARAVEL</span>
+                    <h4>
+                        Descripción
+                    </h4>
+                    <p class="content-job">
+                        El sistema informático Cha’an Ha’ (Observatorio del agua) tiene como objetivo principal
+                        servir a la comunidad universitaria para administrar el monitoreo del consumo, manejo y
+                        preservación del agua en la Facultad de Ingeniería de la Universidad Autónoma de
+                        Campeche. <br> &nbsp;
+                    </p>
+                    <div class="user">
+                        <img src="./img/jobs/uac.png" alt="UAC" />
+                        <div class="user-info">
+                            <h5>Cha’an Ha’</h5>
+                            <small>Observatorio del agua</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <a onclick="document.getElementById('id-cem').style.display='block'">
+                        <img src="./img/jobs/cem.png" alt="CEM" />
+                    </a>
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-purple">LARAVEL</span>
+                    <h4>
+                        Descripción
+                    </h4>
+                    <p class="content-job">
+                        Una plataforma especialmente diseñada para la enseñanza de Matemáticas en distintos niveles
+                        desde donde quieras.
+                        <br> <br>
+                        Permite que los
+                        alumnos tomen clases y presenten exámenes de
+                        conocimiento, además de proveer a nuestro
+                        cliente un mejor control en cuanto a la
+                        organización.
+                    </p>
+                    <div class="user">
+                        <img src="./img/jobs/cem-logo.png" alt="CEM" />
+                        <div class="user-info">
+                            <h5>CEM</h5>
+                            <small style="white-space: nowrap;">Plataforma de Asesorías Matemáticas</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="id-misRentas" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id-misRentas').style.display='none'"
+                        class="w3-button w3-display-topright close-modal">Cerrar</span>
+                    <div class="modal-header-jobs">
+                        <span class="title-content-modal">Contribuciones <i class="fa fa-handshake-o"
+                                aria-hidden="true"></i></span>
+                        <a class="btn btn-content-job" href="https://www.misrentas.mx/">Visitar sitio</a>
+                    </div>
+                    <ol class="content-contributions">
+                        <li>🧑‍💻 Asistencia a usuarios</li>
+                        <li>🧾 Implementación de facturación y complementos de pago(generación y sellado de XML) CFDI
+                            4.0
+                        </li>
+                        <li>📝 Timbrado de facturas automáticas a nivel de contrato</li>
+                        <li>🧮 Implementación de cálculo de impuestos ISR, IVA con o sin rentenciones a nivel de
+                            contrato
+                        </li>
+                        <li>🖥 Mejoras de diseño en el Dashboard</li>
+                        <li>💻 Mejoras de diseño en general</li>
+                        <li>🏢 Implementación de registro para comprar de propiedades por período (mensual o anual)</li>
+                        <li>💰 Pasarela de pago Paypal para la suscripción de usuarios mensual o anual</li>
+                        <li>📝 Generación de reportes PDF y Excel con JasperReports</li>
+                        <li>🙍🏻‍♂️ Implementación y mejora de Roles para acceso a un determinado perfil</li>
+                        <li>👩🏻‍💻 Consumo de Servicio Paypal, exchanges, Facturapi, Facturación PAX</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div id="id-tocajazz" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id-tocajazz').style.display='none'"
+                        class="w3-button w3-display-topright close-modal">Cerrar</span>
+                    <div class="modal-header-jobs">
+                        <span class="title-content-modal">Contribuciones <i class="fa fa-handshake-o"
+                                aria-hidden="true"></i></span>
+                        <a class="btn btn-content-job" href="https://tocajazz.com/">Visitar sitio</a>
+                    </div>
+                    <ol class="content-contributions">
+                        <li>💻 Reestructuración de contenido entre las diferentes vistas del sistema</li>
+                        <li>👨🏽‍💻 Mejoras en la interactivad del usuario</li>
+                        <li>🎥 Desglose de contenido de series y lecciones</li>
+                        <li>🙎🏽‍♂️ Mejores en el registro e inicio sesión normal y con redes sociales(Facebook y
+                            Google)</li>
+                        <li>📊 Implementación de Gráficas con HighCharts</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div id="id-agua" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id-agua').style.display='none'"
+                        class="w3-button w3-display-topright close-modal">Cerrar</span>
+                    <div class="modal-header-jobs">
+                        <span class="title-content-modal">Funciones realizadas <i class='bx bx-task'></i></span>
+                    </div>
+                    <strong>1.- Módulo de acceso</strong>
+                    <ol class="content-contributions">
+                        <li>💻 Registro de usuario</li>
+                        <li>👨🏽‍💻 Roles: responsable de adscripción y responsable de área</li>
+                    </ol>
+                    <strong>2.- Módulo consumo de agua</strong>
+                    <ol class="content-contributions">
+                        <li>📝 Filtro por adscripción, área y fecha (Gráfica)</li>
+                    </ol>
+                    <strong>3.- Instalaciones en malas condiciones (Todos lo pueden visualizar, libre acceso) </strong>
+                    <ol class="content-contributions">
+                        <li>💦 Filtro por adscripción, área y fecha (Gráfica)</li>
+                    </ol>
+                    <strong>4.- Insignias de reconocimiento para mejorar el manejo y consumo responsable del agua (Mapa)
+                    </strong>
+                    <ol class="content-contributions">
+                        <li>🗺 Mostrar a través de mapa, aquellas zonas del campus que aprovechan un mejor cuidado del
+                            consumo del agua</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div id="id-cem" class="w3-modal">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('id-cem').style.display='none'"
+                        class="w3-button w3-display-topright close-modal">Cerrar</span>
+                    <div class="modal-header-jobs">
+                        <span class="title-content-modal">Funciones realizadas <i class='bx bx-task'></i></span>
+                    </div>
+                    <strong>1.- Módulo de Administrador</strong>
+                    <ol class="content-contributions">
+                        <li>🖥 Poder agregar y eliminar
+                            asesores.</li>
+                        <li>👨🏽‍💻 Asignar cursos a los asesores.</li>
+                        <li>🗒 Debe tener acceso a la
+                            plataforma para generar los
+                            exámenes.</li>
+                        <li>🕣 Saber cuántas horas de trabajo
+                            tiene cada asesor.</li>
+                        <li>👨🏼‍🎓 Llevar un registro del uso que
+                            den los asesores y alumnos.</li>
+                    </ol>
+                    <strong>2.- Módulo de Asesor</strong>
+                    <ol class="content-contributions">
+                        <li>📚 Generar cursos.</li>
+                        <li>🕰 Saber cuántas horas de
+                            trabajo ha realizado por un
+                            cierto lapso.</li>
+                        <li>📙 Tener acceso a la plataforma
+                            para generar los exámenes.</li>
+                        <li>👨🏼‍🏫 Datos del asesor (perfil).</li>
+                    </ol>
+                    <strong>3.- Módulo de Alumno </strong>
+                    <ol class="content-contributions">
+                        <li>👨🏼‍🎓 Cada alumno debe de registrarse
+                            antes de poder acceder a los cursos.</li>
+                        <li>🏛 Poder solicitar clases particulares
+                            con el asesor que desee.
+                        </li>
+                        <li>⏱ Comprar horas y luego solicitarlas a
+                            los asesores.</li>
+                        <li>💰 Poder hacer pagos de sus cursos o
+                            sus clases solicitadas.</li>
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&#9426 2022 Creado por José Luis Villanueva </p>
+        </footer>
     </section>
 
     <div class="social">
         <ul>
-            <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
-            <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
-            <li><a href="#"><i class="bx bxl-dribbble"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100000462545123"><i class="bx bxl-facebook"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/jose-luis-villanueva-pech-34121b1b3"><i
+                        class="bx bxl-linkedin"></i></a></li>
+            <li><a href="mailto: lv428694@gmail.com"><i class="bx bxl-gmail"></i></a></li>
         </ul>
     </div>
+
+
+
     <script src="https://unpkg.com/scrollreveal"></script>
     <script type="text/javascript" src="js/script.js"></script>
-
 </body>
 
 </html>

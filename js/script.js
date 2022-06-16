@@ -13,5 +13,5 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal('.text,.social', {delay:300, origi: 'bottom'})
+sr.reveal('.text,.social, .container-cards', {delay:300, origi: 'bottom'})
 sr.reveal('header', {delay:100, origi: 'bottom'})
